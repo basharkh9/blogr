@@ -55,15 +55,15 @@ h4 {
 }
 
 h1 {
-  font-size: 7rem;
+  font-size: 5.4rem;
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 3.7rem;
 }
 
 h3 {
-  font-size: 3rem;
+  font-size: 2.7rem;
 }
 
 p {
@@ -412,7 +412,7 @@ p {
 /* Blocks */
 .block {
   --padding-vertical: 6rem;
-  padding: var(--padding-vertical) 2rem;
+  padding: var(--padding-vertical) 0.3rem;
 }
 .block__stretched {
   --padding-vertical: 6rem;
@@ -443,6 +443,10 @@ p {
 }
 
 @media screen and (min-width: 768px) {
+  .block {
+    --padding-vertical: 6rem;
+    padding: var(--padding-vertical) 2rem;
+  }
   .block__header {
     text-align: left;
   }
@@ -488,7 +492,7 @@ p {
 }
 .feature__content {
   display: flex;
-  margin: 0.1rem 5rem;
+  margin: 0.1rem 0.1rem 1rem 1rem;
   flex-direction: column;
   align-items: center;
   justify-content: center;
